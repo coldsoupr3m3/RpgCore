@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Games</title>
+  <script src="js/player.js"></script>
+  <script src="js/enemy.js"></script>
+  <script src="js/block.js"></script>
+  <script src="js/maps.js"></script>
+  <script src="js/startBlock.js"></script>
+  <script src="js/projectile.js"></script>
+  <script src="js/bullet.js"></script>
+  <script src="js/mapEditor.js"></script>
+  <script src="js/endBlock.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/equipment.js"></script>
+  <script src="wip/container.js"></script>
+  <script src="wip/item.js"></script>
+  <script src="js/trader.js"></script>
+
+  <link rel="stylesheet" href="css/modal.css" >
+  <!--#########BEWARE############# 
+  
+  Make sure to place class dependancies BEFORE their subclasses here.
+  
+  -->
+
+
+  <style>
+    canvas {
+      display: block;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    #tools ul{
+      list-style-type:none;
+    }
+    #tools li{
+      padding:5px;
+      width:90px;
+      height:60px;
+      line-height:60px;
+    }
+    #tools li button{
+      height:100%;
+      width:100%;
+    }
+  </style>
+</head>
+
+<body>
+    <div id="tools">
+      <ul style="display:inline-block float:left;">
+        <li><a href="game.html">Game</a></li>
+        <li><button onclick="loadMap('empty')">New Room</button></li>
+        <li><button onclick="mapEditor.saveMapToFile()">Save Map</button></li>
+      </ul>
+      <form>
+        <label>Place: </label>
+        <select id="placing" onchange="mapEditor.selectObject();">
+          <option value="block">block</option>
+          <option value="eraser">eraser</option>
+          <option value="enemy">enemy</option>
+          <option value="startBlock">startBlock</option>
+          <option value="portalOne">endBlock</option>
+          <option value="trader">trader</option>
+        </select>
+
+        <label>Load: </label>
+        <select id="mapSelector" onchange="loadAMap()">
+          <option value="cave1">Map 1</option>
+          <option value="cave2">Map 2</option>
+          <option value="cave3">Map 3</option>
+          <option value="cave4">Map 4</option>
+        </select>
+      </form>
+      <br/>
+  </div>
+  
+   <canvas id="myCanvas"  width="800" height="600"></canvas>
+   <button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <textarea id="mapCode" style="height:600px; min-width:90%; margin: 0 50% 0 50%; position:relative; top: 25px; left:-45%;padding:0px;"></textarea>
+  </div>
+
+</div>
+   <script src="js/ui.js"></script>
+
+   <script src="js/main.js"></script>
+   <script>
+     gameState = "edit";
+   </script>
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mouse",
+				"mouseLeftUp"
+			],
+			[
+				"Po",
+				"posY"
+			],
+			[
+				"snap",
+				"snapX"
+			],
+			[
+				"sele",
+				"selectObject"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tushaan/Desktop/TRILL RPG CORE"
+	],
+	"file_history":
+	[
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/mapEditor.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/mapEditor.html",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/menu.html",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/game.sublime-workspace",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/trader.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/main.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/ui.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/css/modal.css",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/core.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/bullet.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/endBlock.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/bounceBlock.js",
+		"/Users/tushaan/Desktop/TRILL RPG CORE/js/block.js",
+		"/Users/tushaan/MainArk.mm",
+		"/summer mixtape.txt",
+		"/Users/tushaan/Documents/iZotope/Trash 2/Global Presets/Aggressive/Extra Feisty.xml",
+		"/Users/tushaan/Downloads/Oracle_VM_VirtualBox_Extension_Pack-4.3.18-96516.vbox-extpack",
+		"/Users/tushaan/Downloads/BootCamp5.1.5621/AutoUnattend.xml",
+		"/Users/tushaan/Desktop/Dota 2 Workshop Tools Alpha.app/Contents/MacOS/run.sh",
+		"/Volumes/VERBATIM HD/GAMES/WORLDS 2D/Combat/combat I.html",
+		"/Volumes/SFSPRO_166_macosx/SmartFoxServer PRO 1.6.6/Server/starrt.sh",
+		"/Volumes/ARK I/CC_WEBS/index.html",
+		"/Volumes/VERBATIM HD/KD_WEBS/css/iframe.css",
+		"/Volumes/VERBATIM HD/GAMES/WORLDS 2D/environment/Trees/tree.html",
+		"/Volumes/VERBATIM HD/KD_WEBS/ark/mathematics/algebra/solving/terminology.html",
+		"/untitled"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TRILLCORE.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

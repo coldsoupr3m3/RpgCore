@@ -1,0 +1,102 @@
+<!-- Game !!!!!! -->
+<!-- http://mainark.com/content/game.html -->
+<!-- additional javascript files:
+ player: https://codeshare.io/24eNvK
+ enemy: https://codeshare.io/5ZJ4KQ
+ block: https://codeshare.io/5PdoqX
+ map editor: https://codeshare.io/5zyLAb
+-->
+<!DOCTYPE html>
+<html>
+  
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Games</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700i" rel="stylesheet">
+  <style>
+    canvas {
+      display: block;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    #tools ul{
+      list-style-type:none;
+    }
+    #tools li{
+      padding:5px;
+      width:90px;
+      height:60px;
+      line-height:60px;
+    }
+    #tools li button{
+      height:100%;
+      width:100%;
+    }
+    #menu{
+      border:5px solid black;
+      border-radius:7px;
+      width:200px;
+      margin:auto;
+      padding:none;
+      background-color:rgba(155,135,135,1);
+      text-align:center;
+    }
+    #menu ul{
+      list-style-type:none;
+      padding:0;
+    }
+    #menu ul li{
+      height:60px;
+      line-height:60px;
+      color:black;
+      transition:all 1s;
+    }
+    #menu ul li:hover > a{
+    }#menu ul li:hover{
+      background-color:rgba(255,235,235,1);
+    }
+    #menu a{
+      font-family: 'Open Sans', sans-serif;
+      font-size:30px;
+      display:block;
+      font-weight:bold;
+      text-decoration:none;
+      color:black;
+      width:100%;
+      height:100%;
+      transition:all 1s;
+    }
+    
+    #menu a{
+      display:block;
+      text-decoration:none;
+      color:black;
+      width:100%;
+      height:100%;
+    }
+    
+
+  </style>
+  <link rel="stylesheet" href="animate.css">
+</head>
+
+<body>
+<img src="img/Trill.png" style="margin:0 50% 0 50%;width:250px;position:relative;left:-120px;" class="fadeInDown animated"/>
+<div id="menu" class="animated fadeInUp">
+  <ul>
+    <li><a href="game.html"><i>GAME</i></a></li>
+    <li><a href="mapEditor.html"><i>EDITOR</i></a></li>
+  </ul>
+</div>
+
+<!--<img src="http://mainark.com/content/img/player.png" />-->
+
+
+</body>
+
+</html>

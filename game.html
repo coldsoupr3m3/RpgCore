@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Games</title>
+  <script src="js/player.js"></script>
+  <script src="js/enemy.js"></script>
+  <script src="js/block.js"></script>
+  <script src="js/maps.js"></script>
+  <script src="js/startBlock.js"></script>
+  <script src="js/projectile.js"></script>
+  <script src="js/bullet.js"></script>
+  <script src="js/mapEditor.js"></script>
+  <script src="js/endBlock.js"></script>
+  <script src="js/core.js"></script>
+  <script src="js/equipment.js"></script>
+  <script src="wip/container.js"></script>
+  <script src="wip/item.js"></script>
+  
+  
+  <link rel="stylesheet" href="css/modal.css" >
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700i" rel="stylesheet">
+  
+  <!--#########BEWARE############# 
+  
+  Make sure to place class dependancies BEFORE their subclasses here.
+  
+  -->
+
+
+  <style>
+    canvas {
+      display: block;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    
+        body{
+      background-color:black;
+    }
+    
+    #inventory li{
+    display:inline-block;
+    float:left;
+    list-style-type:none;
+    background-color:blue;
+    height:40px;
+    width:40px;
+    margin:5px;
+
+    }
+    
+     #inventory{
+      font-family:'Open Sans', sans-serif;
+      border:5px solid black;
+      border-radius:7px;
+      border:5px solid black;
+      border-radius:7px;
+      background-color:rgba(155,135,135,1);
+      text-align:center;
+      max-width:600px;
+      height:600px;
+    }
+    
+    #menu ul li:hover{
+      background-color:rgba(255,235,235,1);
+    }
+  </style>
+</head>
+
+<body>
+  <a href="menu.html">menu</a>
+  <canvas id="myCanvas" width="1440" height="1080">
+  </canvas>
+  
+  <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content" id="inventory">
+    <span class="close">&times;</span>
+    	<h1>INVENTORY</h1>
+    	<ul>
+    		<li id="s0"><img src="img/item__00.png" style="height:40px;"></li>
+    		<li id="s1"><img src="img/item__00.png" style="height:40px;"></li>
+    		<li id="s2"><img src="img/item__00.png" style="height:40px;"></li>
+    		<li id="s3"><img src="img/item__00.png" style="height:40px;"></li>
+    		<li id="s4"><img src="img/item__00.png" style="height:40px;"></li>
+    		<li id="s5"></li>
+    		<li id="s6"></li>
+    		<li id="s7"></li>
+    		<li id="s8"></li>
+    		<li id="s9"></li>
+    		<li id="s10"></li>
+    		<li id="s11"></li>
+    		<li id="s12"></li>
+    		<li id="s13"></li>
+    		<li id="s14"></li>
+    		<li id="s15"></li>
+    		<li id="s16"></li>
+    		<li id="s17"></li>
+    		<li id="s18"></li>
+    		<li id="s19"></li>
+    		<li id="s20"></li>
+    		<li id="s21"></li>
+    		<li id="s22"></li>
+    		<li id="s23"></li>
+    	</ul>
+  </div>
+
+</div>
+   <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

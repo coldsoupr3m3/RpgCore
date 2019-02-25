@@ -1,0 +1,34 @@
+
+
+-  Create a delete function in the map editor
+-  Create items and inventory system
+-  Build Trading System
+
+-Decide on numerical character attributes and 
+	-  Design Database
+		-  Build Database
+
+-  Create targeted portals (i.e. not just linked list of maps, but ability to branch)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Depends on art
+
+- Draw sprites for background tiles
+- Implement sprite animations for characters
